@@ -1,5 +1,5 @@
 /** $(document).ready(function() {}) **/
-function ready(true) {
+function ready(bool) {
 	if (document.readyState != 'loading'){
 		return true;
 		finished();
