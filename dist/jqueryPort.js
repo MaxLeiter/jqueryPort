@@ -187,7 +187,7 @@ function parseHTML(html) {
 		return tmp.body.children;
 	};
 
-	return parseHTML(htmlString);
+	return parse(htmlString);
 }
 
 /** $.trim(string) **/
